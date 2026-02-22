@@ -1,0 +1,156 @@
+rwanda-travel-guide/
+├── index.html
+├── style.css
+├── app.js
+├── images/
+│    ├── volcanoes.jpg
+│    ├── nyungwe.jpg
+│    └── lakekivu.jpg
+└── README.md
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Rwanda Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Rwanda Guide</h1>
+        <p>Discover top tourist destinations, hotels, and local experiences</p>
+    </header>
+
+    <nav>
+        <button onclick="showSection('destinations')">Destinations</button>
+        <button onclick="showSection('hotels')">Hotels & Guides</button>
+    </nav>
+
+    <main>
+        <section id="destinations">
+            <article class="place">
+                <h2>Volcanoes National Park</h2>
+                <img src="images/volcanoes.jpg" alt="Volcanoes NP">
+                <p>Home of mountain gorillas, scenic hikes, and local culture.</p>
+                <a href="https://goo.gl/maps/9Nk7a" target="_blank">View on Map</a>
+            </article>
+
+            <article class="place">
+                <h2>Nyungwe Forest National Park</h2>
+                <img src="images/nyungwe.jpg" alt="Nyungwe Forest">
+                <p>Famous for canopy walks, chimpanzees, and rainforest trails.</p>
+                <a href="https://goo.gl/maps/5F6Xk" target="_blank">View on Map</a>
+            </article>
+
+            <article class="place">
+                <h2>Lake Kivu</h2>
+                <img src="images/lakekivu.jpg" alt="Lake Kivu">
+                <p>Beautiful beaches, kayaking, and stunning sunsets.</p>
+                <a href="https://goo.gl/maps/Xy7g" target="_blank">View on Map</a>
+            </article>
+        </section>
+
+        <section id="hotels" style="display:none;">
+            <article>
+                <h2>Local Hotels & Guides</h2>
+                <p>Find nearby hotels, lodges, and professional tour guides.</p>
+                <ul>
+                    <li>Hotel des Mille Collines</li>
+                    <li>Serena Hotel Kigali</li>
+                    <li>Professional local guides available for bookings</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #66bb6a;
+}
+
+main {
+    padding: 20px;
+}
+
+.place {
+    margin: 20px auto;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background: white;
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}# Explore Rwanda Guide
+
+Explore Rwanda Guide is a free, interactive web app showcasing Rwanda’s top tourist destinations, hotels, and local experiences. Works on mobile and desktop browsers.  
+
+## Features
+- Volcanoes National Park, Nyungwe Forest, Lake Kivu, Akagera NP, Kigali Genocide Memorial  
+- Hotels & lodges information  
+- Tour guides and transport services  
+- Google Maps links for navigation  
+- Mobile-friendly and responsive design
+
+## Usage
+1. Open `index.html` in a browser or host with GitHub Pages.  
+2. Click buttons to navigate between Destinations and Hotels. # Explore Rwanda Guide
+
+Explore Rwanda Guide is a free, interactive web app showcasing Rwanda’s top tourist destinations, hotels, and local experiences. Works on mobile and desktop browsers.  
+
+## Features
+- Volcanoes National Park, Nyungwe Forest, Lake Kivu, Akagera NP, Kigali Genocide Memorial  
+- Hotels & lodges information  
+- Tour guides and transport services  
+- Google Maps links for navigation  
+- Mobile-friendly and responsive design
+
+## Usage
+1. Open `index.html` in a browser or host with GitHub Pages.  
+2. Click buttons to navigate between Destinations and Hotels.  
+3. Use "View on Map" links to get directions.                 
